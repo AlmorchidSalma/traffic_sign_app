@@ -1,4 +1,24 @@
+# Virtual environment
 venv/
+.env
+
+# Python cache files
 __pycache__/
 *.pyc
+
+# System files
 .DS_Store
+
+# Uploads and temporary files
+uploads/
+*.mp4
+*.avi
+*.png
+*.jpg
+
+# Model files (keep best.pt)
+# *.pt   <-- ❌ commenté pour ne pas ignorer best.pt
+
+# IDE and editor settings
+.vscode/
+.idea/
